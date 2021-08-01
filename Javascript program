@@ -1,0 +1,8 @@
+Var button = document.querySelectorAll('button'),
+input = document.querySelector('input'),
+busy=true,
+hold,
+delay=1000,
+change = -1,
+click= null,
+for (var i = 0, len= button.length; i++)
